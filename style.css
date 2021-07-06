@@ -1,0 +1,135 @@
+body{
+    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    word-spacing: 3px;
+}
+.flex-container{
+    display: flex;
+    margin: 0;
+    
+}
+.half-width{
+    width: 40%;
+    padding: 100px;
+    padding-right: 40px;
+
+    
+}
+h1{
+    font-size: 50px;
+    
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+.tomato-class{
+    color: tomato;
+}
+.person-img{
+    width: 60%;
+    height: 500px;
+    padding-left: 100px;
+}
+.text-padding{
+    padding-top: 200px;
+}
+.img-padding{
+    width: auto;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+.paragraph-margin{
+    margin-bottom: 50px;
+    text-align: justify;
+}
+.order-btn{
+    margin-top: 2em;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(233, 81, 25), orange);
+    border-image-slice: 7 12 14 5;
+    padding: 15px 40px;
+    color: whitesmoke;
+    border-radius: 30px;
+}
+
+.top-banner{
+    background-image: url(shapes/7.png);
+    background-repeat: no-repeat;
+    margin: 0;
+
+}
+.about-me{
+    color: tomato;
+    margin-top: 60px;
+}
+
+.recipie-section{
+    padding: 0;
+    background-color: white;
+    
+}
+.recipie{
+    padding-top: 0;
+    text-align: center;
+}
+.recipie h2{
+    color: tomato;
+  
+}
+.recipie p{
+    text-align: center;
+    width: 600px;
+    margin-left: 350px;
+}
+.recipie-item{
+    display: flex;
+    width: 100%;
+   
+}
+.recipie-name{
+    border-radius: 20px;
+    text-align: justify;
+    width: 40%;
+    height: 450px;
+    margin: 5%;
+    padding: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.recipie-name img{
+   padding-left: 30px;
+    width: 80%;
+    height: 250px;
+}
+
+.subscriber{
+    display: flex;
+    border-radius: 20px;
+    text-align: justify;
+    width: 89%;
+    height: 200px;
+    margin: 5%;
+    padding: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.subscriber-item{
+    margin: 2%;
+    margin-right: 10px;
+    padding-right: 180px;
+    
+
+}
+footer{
+    background-color: rgb(80, 48, 72);
+    text-align: center;
+    height: 200px;
+}
+.footer{
+    padding-top: 30px
+}
+.footer span{
+    color: #1E90FF;
+}
